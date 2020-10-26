@@ -20,7 +20,7 @@ function draw() {
 }
 
 function preload() {
-  img = loadImage('assets/seoul/NAMSAN.jpg');
+  img = loadImage('../assets/seoul/NAMSAN.jpg');
   img2 = loadImage('assets/notepad.png');
 }
 
