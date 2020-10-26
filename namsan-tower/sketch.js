@@ -16,7 +16,6 @@ function draw() {
   imageMode(CENTER);
   image(img, 350, 270, img.width * scale, img.height * scale);
   image(img2, 900, 470, img.width * scale2, img.height * scale2);
-//   position = ('SCALE');
 
 }
 
