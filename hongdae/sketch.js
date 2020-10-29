@@ -14,7 +14,7 @@ function draw() {
 
   imageMode(CENTER);
   image(img, 950, 270, img.width * scale, img.height * scale);
-  image(img2, 380, 470, img.width * scale2, img.height * scale2);
+  image(img2, 380, 490, img.width * scale2, img.height * scale2);
 
 }
 
