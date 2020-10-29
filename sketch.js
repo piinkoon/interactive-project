@@ -23,3 +23,7 @@ function draw() {
 function openWin() {
   window.open("namsan-tower/index2.html");
 }
+
+function openWin2() {
+  window.open("hongdae/index3.html");
+}
