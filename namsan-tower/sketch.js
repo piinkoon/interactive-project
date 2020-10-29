@@ -1,6 +1,6 @@
 
 function setup() {
-  createCanvas(windowWidth, windowHeight + 150);
+  createCanvas(1280, 770);
 }
 
 function draw() {
@@ -16,12 +16,11 @@ function draw() {
   imageMode(CENTER);
   image(img, 350, 270, img.width * scale, img.height * scale);
   image(img2, 900, 470, img.width * scale2, img.height * scale2);
-  position = ('SCALE');
 
 }
 
 function preload() {
-  img = loadImage('assets/seoul/NAMSAN.jpg');
+  img = loadImage('../assets/seoul/NAMSAN.jpg');
   img2 = loadImage('assets/notepad.png');
 }
 
