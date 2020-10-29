@@ -1,29 +1,47 @@
 let img;
-let img2;
+let canvas2;
 
 function preload() {
-  img = loadImage('assets/seoul/NAMSAN.PNG');
-  img2 = loadImage('assets/seoul/HONGDAE.PNG')
+  img = loadImage('map.png');
+  img3 = loadImage ('pin2.png');
+  myFont = loadFont('selima_.otf');
+  img4 = loadImage ('plane.png')
+ img2 = createImg('water.gif');
 }
-
 function setup() {
-  createCanvas(1280, 770)
+  createCanvas(windowWidth, windowHeight);
+  background (255)
+//   canvas2 = createGraphics (windowWidth, windowHeight)
+// canvas2.img4 (0)
+
+img2.position (300,400,50,20);
+  image (img, 0, 0 );
+  imageMode (CENTER)
+ 
+  tint (0,190)
+  image (img3, 1303, 237, width/21,height/12,)
+  image (img3, 387, 216, width/21,height/12,)
+  image (img3, 726, 190, width/21,height/12,)
+  
+  
+  
+  
+}
+function draw () {
+  textSize(80);
+  textFont (myFont)
+  textAlign (CENTER)
+text('Point & Go!', width/2, height /2);
+//image (img4, mouseX, mouseY)
+
+}
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }
 
-function draw() {
-  let scale = 1.2 / 10
-  let scale2 = 2 / 10
-  imageMode(CENTER);
-  image(img, 1050, 220, img.width * scale, img.height * scale);
-  image(img2, 350, 480, img.width * scale2, img.height * scale2);
-  position = ('SCALE');
-
+function mousePressed () {
+  console.info (mouseX, mouseY)
 }
 
-function openWin() {
-  window.open("namsan-tower/index2.html");
-}
 
-function openWin2() {
-  window.open("hongdae/index3.html");
-}
+
