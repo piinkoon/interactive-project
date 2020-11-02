@@ -27,3 +27,7 @@ function openWin() {
 function openWin2() {
   window.open("hongdae/index3.html");
 }
+
+function openWin3() {
+  window.open("../map/index.html");
+}

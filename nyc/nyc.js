@@ -27,3 +27,8 @@ function openWin() {
 function openWin2() {
   window.open("chinatown/ctown-index.html"); 
 }
+
+function openWin3() {
+  window.open("../map/index.html");
+}
+
