@@ -28,5 +28,5 @@ function openWin() {
   window.open("https://www.esbnyc.com/");
 }
 function openWin2() {
-  window.open("../index.html");
+  window.open("../nyc-index.html");
 }
