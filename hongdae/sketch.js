@@ -9,7 +9,7 @@ function draw() {
   noStroke();
   rect(700, 100, 500, 500);
 
-  let scale = 6 / 10
+  let scale = 2 / 10
   let scale2 = 1.6
 
   imageMode(CENTER);
