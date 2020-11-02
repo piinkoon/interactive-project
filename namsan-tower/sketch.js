@@ -28,5 +28,5 @@ function openWin() {
   window.open("http://www.nseoultower.co.kr/eng/");
 }
 function openWin2() {
-  window.open("../index.html");
+  window.open("../seoul-index.html");
 }
