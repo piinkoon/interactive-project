@@ -1,19 +1,18 @@
-# p5.js template
+# Point and Go!
 
-[p5.js](https://p5js.org) is a JavaScript library for creative coding.
+# Description
 
-This project is a “starter kit” for using Visual Studio Code, Atom, or another
-code editor running on your computer, for local development of p5.js projects.
+With inspiration from travelling mood boards, travel journals, and colorful world maps, this project allows the user to "travel" (or just get future vacation inspiration) on their laptop screen.
 
-## Instructions
+## Usage
 
-1. On <https://github.com/osteele/p5-template>, click Code, and then Download
-   Zip
-2. If necessary, unzip the zip file. (Your computer may do this automatically.)
-3. Rename the folder "p5-template" to your project name.
-4. In a code editor, open the folder.
-5. Start editing! The p5.js code is in `sketch.js`.
+To navigate this project, simply move your mouse across the page, choose from one of three cities, then click to "go" there! Once inside the city, you can identify two landmark locations of that city and learn more about them.
 
-## License
+## Authors
 
-MIT
+Oona Pecson, Mike Kattan
+
+## Acknowledgements
+
+The main site that gave most help and information with specific HTML or CSS code was W3Schools. 
+
