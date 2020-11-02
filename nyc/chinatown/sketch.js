@@ -19,8 +19,8 @@ function draw() {
 }
 
 function preload() {
-  img = loadImage('../assets/nyc/CHINATOWN.jpg');
-  img2 = loadImage('assets/notepad.png');
+  img = loadImage('../chinatown/assets/nyc/CHINATOWN.jpg');
+  img2 = loadImage('../chinatown/assets/notepad.png');
 }
 
 function openWin() {

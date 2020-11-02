@@ -2,8 +2,8 @@ let img;
 let img2;
 
 function preload() {
-  img = loadImage('assets/seoul/NAMSAN.PNG');
-  img2 = loadImage('assets/seoul/HONGDAE.PNG')
+  img = loadImage('namsan-tower/assets/seoul/NAMSAN.PNG');
+  img2 = loadImage('hongdae/assets/seoul/HONGDAE.PNG')
 }
 
 function setup() {

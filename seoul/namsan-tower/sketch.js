@@ -6,12 +6,12 @@ function setup() {
 function draw() {
   background(255);
 
-  fill (219, 103, 43);
+  fill (86, 133, 186);
   noStroke();
   rect(100, 100, 500, 500);
 
-  let scale = 2 / 10
-  let scale2 = 5 / 10
+  let scale = 1 / 10
+  let scale2 = 2.5 / 10
 
   imageMode(CENTER);
   image(img, 350, 270, img.width * scale, img.height * scale);
@@ -20,13 +20,13 @@ function draw() {
 }
 
 function preload() {
-  img = loadImage('../assets/nyc/EMPIRESTATE.jpeg');
-  img2 = loadImage('assets/notepad.png');
+  img = loadImage('../namsan-tower/assets/seoul/NAMSAN.jpg');
+  img2 = loadImage('../namsan-tower/assets/notepad.png');
 }
 
 function openWin() {
-  window.open("https://www.esbnyc.com/");
+  window.open("http://www.nseoultower.co.kr/eng/");
 }
 function openWin2() {
-  window.open("../nyc-index.html");
+  window.open("../seoul-index.html");
 }

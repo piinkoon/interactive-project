@@ -2,12 +2,12 @@ let img;
 let img2;
 
 function preload() {
-  img = loadImage('assets/nyc/EMPIRE.PNG');
-  img2 = loadImage('assets/nyc/CHINATOWN.PNG')
+  img = loadImage('empire/assets/nyc/EMPIRE.PNG');
+  img2 = loadImage('chinatown/assets/nyc/CHINATOWN.PNG')
 }
 
 function setup() {
-  createCanvas(1280, 770)
+  createCanvas(1280, 770);
 }
 
 function draw() {
@@ -16,7 +16,7 @@ function draw() {
   imageMode(CENTER);
   image(img, 905, 380, img.width * scale, img.height * scale); 
   image(img2, 650, 420, img.width * scale2, img.height * scale2);
-  position = ('SCALE');
+  position = ('FIXED');
 
 }
 
