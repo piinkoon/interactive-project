@@ -61,7 +61,7 @@ function openWin2() {
 }
 
 function openWin3() {
-  window.open("paris-index.html");
+  window.open("paris/paris-index.html");
 }
 
 
