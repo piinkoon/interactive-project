@@ -14,7 +14,7 @@ function draw() {
   let scale = 1.2 / 10
   let scale2 = 2 / 10
   imageMode(CENTER);
-  image(img, 1050, 220, img.width * scale, img.height * scale);
+  image(img, 1150, 220, img.width * scale, img.height * scale);
   image(img2, 350, 480, img.width * scale2, img.height * scale2);
   position = ('SCALE');
 

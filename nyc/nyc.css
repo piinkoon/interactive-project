@@ -1,9 +1,9 @@
 body {
-  margin: 50;
-  background-image: url('chinatown/assets/nyc/NYC.jpg');
+  margin: 0;
+  background-image: url('empire/assets/nyc/NYC.jpg');
   background-repeat: no-repeat;
   background-attachment: absolute;
-  background-size: 75% 75%;
+  background-size: 7/10;
   background-position: center;
 
 }
