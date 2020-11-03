@@ -53,15 +53,15 @@ function windowResized() {
 // }
 
 function openWin() {
-  window.open("../nyc/nyc-index.html");
+  window.open("nyc/nyc-index.html");
 }
 
 function openWin2() {
-  window.open("../seoul/seoul-index.html"); 
+  window.open("seoul/seoul-index.html"); 
 }
 
 function openWin3() {
-  window.open("../paris-index.html");
+  window.open("paris-index.html");
 }
 
 
