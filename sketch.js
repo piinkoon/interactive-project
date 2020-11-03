@@ -1,26 +1,68 @@
 let img;
 let canvas2;
 
-function preload() {
-  img = loadImage('paris/PARIS.jpg');
-  eiffel = loadImage ('paris/eiffel.jpg')
-  louvre = loadImage ('paris/louvre.jpg')
-  
-}
 
+
+function preload() {
+  img = loadImage('mainAssets/map.png');
+  img3 = loadImage('mainAssets/pin2.png');
+  myFont = loadFont('mainAssets/selima_.otf');
+  img4 = loadImage('mainAssets/plane.png')
+  //img2 = createImg('water.gif');
+}
 function setup() {
   createCanvas(windowWidth, windowHeight);
+  background(255)
 
+
+  //   canvas2 = createGraphics (windowWidth, windowHeight)
+  // canvas2.img4 (0)
+
+  //img2.position (300,400,50,20);
   image(img, 0, 0);
   imageMode(CENTER)
 
-  image (eiffel,368,257,eiffel.width/1.5,eiffel.height/1.5)
-  image (louvre, 1004,605, louvre.width/1.7, louvre.height/1.8)
-  imageMode(CENTER)
-
+  tint(0, 190)
+  //image (img3, 1303, 237, width/21,height/12,)
+  image(img3, 1303, 237, width / 21, height / 12,);
+  
+  image(img3, 387, 216, width / 21, height / 12,)
+  image(img3, 726, 190, width / 21, height / 12,)
 
 }
 
-function mousePressed(){
-  console.info (mouseX, mouseY)
+// function btn () {
+//   fill('black')
+//   rect(200,200, 50)
+// }
+
+function draw() {
+  textSize(80);
+  textFont(myFont)
+  textAlign(CENTER)
+  text('Point & Go!', width / 2, height / 2);
+  //image (img4, mouseX, mouseY)
+
 }
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
+
+// function mousePressed() {
+//   window.location.href = "http://www.w3schools.com";
+// }
+
+function openWin() {
+  window.open("../nyc/nyc-index.html");
+}
+
+function openWin2() {
+  window.open("../seoul/seoul-index.html"); 
+}
+
+function openWin3() {
+  window.open("../paris-index.html");
+}
+
+
+

@@ -29,5 +29,5 @@ function openWin2() {
 }
 
 function openWin3() {
-  window.open("../map/index.html");
+  window.open("../index.html");
 }
