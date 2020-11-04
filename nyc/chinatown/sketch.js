@@ -27,5 +27,5 @@ function openWin() {
   window.open("https://www.nycgo.com/boroughs-neighborhoods/manhattan/chinatown/");
 }
 function openWin2() {
-  window.open("../nyc-index.html");
+  window.open("../nyc-index.html", "_self");
 }

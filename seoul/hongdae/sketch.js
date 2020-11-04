@@ -27,5 +27,5 @@ function openWin() {
   window.open("https://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=1326972");
 }
 function openWin2() {
-  window.open("../seoul-index.html");
+  window.open("../seoul-index.html", "_self");
 }
