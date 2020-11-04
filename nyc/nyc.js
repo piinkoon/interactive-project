@@ -21,15 +21,15 @@ function draw() {
 }
 
 function openWin() {
-  window.open("empire/empire-index.html")
+  window.open("empire/empire-index.html", "_self")
 
 }
 
 function openWin2() {
-  window.open("chinatown/ctown-index.html")
+  window.open("chinatown/ctown-index.html", "_self")
 }
 
 function openWin3() {
-  window.open("../index.html")
+  window.open("../index.html", "_self")
 }
 

@@ -21,13 +21,13 @@ function draw() {
 }
 
 function openWin() {
-  window.open("namsan-tower/index2.html");
+  window.open("namsan-tower/index2.html", "_self");
 }
 
 function openWin2() {
-  window.open("hongdae/index3.html");
+  window.open("hongdae/index3.html", "_self");
 }
 
 function openWin3() {
-  window.open("../index.html");
+  window.open("../index.html", "_self");
 }
