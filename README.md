@@ -1,5 +1,7 @@
 # Point and Go!
 
+![Picture](assets/map.JPG)
+
 ## Description
 
 With inspiration from travelling mood boards, travel journals, and colorful world maps, this project allows the user to "travel" (or just get future vacation inspiration) on their laptop screen.
