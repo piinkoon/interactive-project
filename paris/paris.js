@@ -38,7 +38,7 @@ function openWin2() {
 
 }
 
-function mousePressed(){
-  console.info (mouseX, mouseY)
-}
+// function mousePressed(){
+//   console.info (mouseX, mouseY)
+// }
 
