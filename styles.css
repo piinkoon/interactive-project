@@ -1,9 +1,9 @@
 body {
   margin: 0;
-  background-image: url('mainAssets/water.jpg');
-  background-repeat: repeat;
+  /* background-image: url('mainAssets/water.jpg');
+  background-repeat: repeat; */
   background-attachment: absolute;
-  background-size: 1310px 770px;
+  background-size: auto;
   background-position: center;
 
 }
