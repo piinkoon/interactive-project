@@ -1,21 +1,21 @@
-let img;
+
 let canvas2;
 
 function preload() {
-img = loadImage('PARIS.jpg');
+
 eiffel = loadImage ('eiffel/eiffel.jpg')
 louvre = loadImage ('Louvre/louvre.jpg')
   
 }
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(1455, 995 );
 
-  // image(img, 0, 0, img.width *1.3, img.height *1.3);
+  let scale = 0.9/ 1
   imageMode(CENTER)
 
-  image (eiffel,480,250,eiffel.width/2,eiffel.height/2)
-  image (louvre, 1004,555, louvre.width/2.3, louvre.height/2.4)
+  image (eiffel,450,350,eiffel.width/2 * scale ,eiffel.height/2 * scale)
+  image (louvre, 1004,555, louvre.width/2.3 * scale, louvre.height/2.4 * scale)
   imageMode(CENTER)
 
 

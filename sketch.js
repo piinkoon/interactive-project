@@ -37,7 +37,7 @@ function setup() {
 
 function draw() {
 
-  scale (0.8)
+  scale (0.8 / 1)
   textSize(80);
   textFont(myFont)
   textAlign(CENTER)
