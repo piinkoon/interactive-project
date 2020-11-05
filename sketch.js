@@ -13,7 +13,7 @@ function preload() {
 function setup() {
 
   let scale = 0.8/ 1
-  createCanvas(windowWidth , windowHeight );
+  createCanvas(1455, 995 );
   background(255)
 
   // translate (-100,0)
@@ -48,9 +48,9 @@ function draw() {
 }
 
 
-function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
-}
+// function windowResized() {
+//   resizeCanvas(windowWidth, windowHeight);
+// }
 
 
 
