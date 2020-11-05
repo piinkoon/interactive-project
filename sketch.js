@@ -18,14 +18,14 @@ function setup() {
 
   // translate (-100,0)
   
-  image(img, 0, 0, width * scale , height * scale);
+  image(img, 0, 0, width * scale +170 , height * scale);
   imageMode(CENTER)
 
   
   
-  image(img3, 265, 200, width * scale /21, height/ 12 * scale);
-  image(img3, 530,155, width / 21 * scale, height / 12 * scale)
-  image(img3, 952, 205, width / 21 * scale, height / 12 * scale )
+  image(img3, 310, 190, width * scale /21 , height/ 12 * scale);
+  image(img3, 610,155, width / 21 * scale , height / 12 * scale)
+  image(img3, 1089, 200, width / 21 * scale, height / 12 * scale )
 }
 
 // function btn () {
