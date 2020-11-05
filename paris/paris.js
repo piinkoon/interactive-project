@@ -14,7 +14,7 @@ function setup() {
   let scale = 0.9/ 1
   imageMode(CENTER)
 
-  image (eiffel,450,350,eiffel.width/2 * scale ,eiffel.height/2 * scale)
+  image (eiffel,450,320,eiffel.width/1.8 * scale ,eiffel.height/1.8 * scale)
   image (louvre, 1004,555, louvre.width/2.3 * scale, louvre.height/2.4 * scale)
   imageMode(CENTER)
 

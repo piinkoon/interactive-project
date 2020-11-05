@@ -3,7 +3,7 @@ body {
   background-image: url('PARIS.jpg');
   background-repeat: no-repeat;
   background-attachment: absolute;
-  background-size: auto;
+  background-size: 95%;
   background-position: center;
 
 }
@@ -31,7 +31,7 @@ body {
   cursor: pointer; 
   position: absolute;
   left: 330px;
-  top: 170px;
+  top: 150px;
 }
 
 .BackButton {
