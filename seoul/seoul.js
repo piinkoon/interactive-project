@@ -7,15 +7,15 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(1280, 770)
+  createCanvas(1310, 770)
 }
 
 function draw() {
-  let scale = 1.2 / 10
+  let scale = 1.5 / 10
   let scale2 = 2 / 10
   imageMode(CENTER);
-  image(img, 1150, 220, img.width * scale, img.height * scale);
-  image(img2, 350, 480, img.width * scale2, img.height * scale2);
+  image(img, 1107, 220, img.width * scale, img.height * scale);
+  image(img2, 450, 480, img.width * scale2, img.height * scale2);
   position = ('SCALE');
 
 }

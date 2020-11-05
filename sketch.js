@@ -18,7 +18,7 @@ function setup() {
 
   // translate (-100,0)
   
-  image(img, 0, 0, width * scale , height * scale);
+  image(img, 0, 0, width * scale + 170, height * scale);
   imageMode(CENTER)
 
   
