@@ -1,9 +1,9 @@
 body {
   margin: 0;
-  /* background-image: url('mainAssets/map.png');
-  background-repeat: no-repeat; */
+  background-image: url('mainAssets/water.jpg');
+  background-repeat: repeat;
   background-attachment: absolute;
-  background-size: auto;
+  background-size: 1310px 770px;
   background-position: center;
 
 }

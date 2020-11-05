@@ -14,7 +14,7 @@ function setup() {
 
   let scale = 0.8/ 1
   createCanvas(1455, 995 );
-  background(255)
+  // background(255)
 
   // translate (-100,0)
   
