@@ -3,7 +3,7 @@ body {
   background-image: url('mainAssets/map.png');
   background-repeat: no-repeat;
   background-attachment: absolute;
-  background-size: 75% 75%;
+  background-size: auto ;
   background-position: center;
 
 }

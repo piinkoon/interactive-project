@@ -14,6 +14,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   background(255)
 
+  
 
   //   canvas2 = createGraphics (windowWidth, windowHeight)
   // canvas2.img4 (0)
@@ -36,21 +37,26 @@ function setup() {
 //   rect(200,200, 50)
 // }
 
+
+
 function draw() {
+
+  cursor('img4' ) ;
   textSize(80);
   textFont(myFont)
   textAlign(CENTER)
   text('Point & Go!', width / 2, height / 2);
   //image (img4, mouseX, mouseY)
 
+
 }
+
+
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
 }
 
-// function mousePressed() {
-//   window.location.href = "http://www.w3schools.com";
-// }
+
 
 function openWin() {
   window.open("nyc/nyc-index.html","_self");
