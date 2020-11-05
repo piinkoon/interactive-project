@@ -11,25 +11,21 @@ function preload() {
   //img2 = createImg('water.gif');
 }
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+
+  let scale = 0.8/ 1
+  createCanvas(windowWidth , windowHeight );
   background(255)
 
+  // translate (-100,0)
   
-
-  //   canvas2 = createGraphics (windowWidth, windowHeight)
-  // canvas2.img4 (0)
-
-  //img2.position (300,400,50,20);
-  image(img, 0, 0);
+  image(img, 0, 0, width * scale , height * scale);
   imageMode(CENTER)
 
-  tint(0, 190)
-  //image (img3, 1303, 237, width/21,height/12,)
-  image(img3, 1303, 237, width / 21, height / 12,);
   
-  image(img3, 387, 216, width / 21, height / 12,)
-  image(img3, 726, 190, width / 21, height / 12,)
-
+  
+  image(img3, 265, 200, width * scale /21, height/ 12 * scale);
+  image(img3, 530,155, width / 21 * scale, height / 12 * scale)
+  image(img3, 952, 205, width / 21 * scale, height / 12 * scale )
 }
 
 // function btn () {
@@ -41,13 +37,13 @@ function setup() {
 
 function draw() {
 
-  cursor('img4' ) ;
+  scale (0.8)
   textSize(80);
   textFont(myFont)
   textAlign(CENTER)
   text('Point & Go!', width / 2, height / 2);
   //image (img4, mouseX, mouseY)
-
+  
 
 }
 
@@ -70,5 +66,7 @@ function openWin3() {
   window.open("paris/paris-index.html", "_self");
 }
 
-
+function mousePressed () {
+  console.info (mouseX, mouseY)
+}
 

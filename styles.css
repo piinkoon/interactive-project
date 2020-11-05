@@ -1,9 +1,9 @@
 body {
-  margin: 50;
-  background-image: url('mainAssets/map.png');
-  background-repeat: no-repeat;
+  margin: 0;
+  /* background-image: url('mainAssets/map.png');
+  background-repeat: no-repeat; */
   background-attachment: absolute;
-  background-size: auto ;
+  background-size: auto;
   background-position: center;
 
 }
