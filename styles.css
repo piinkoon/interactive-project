@@ -1,6 +1,6 @@
 body {
   margin: 50;
-  background-image: url('assets/nyc/NYC.jpg');
+  background-image: url('mainAssets/map.png');
   background-repeat: no-repeat;
   background-attachment: absolute;
   background-size: 75% 75%;

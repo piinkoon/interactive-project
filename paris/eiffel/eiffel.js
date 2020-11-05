@@ -5,6 +5,7 @@ function setup() {
 
 function draw() {
   background(255);
+  image (bkg,800,500)
 
   fill (84, 201, 7);
   noStroke();
@@ -20,6 +21,7 @@ function draw() {
 }
 
 function preload() {
+  bkg = loadImage ('corkboard.jpg')
   img = loadImage('EIFFEL.jpeg');
   img2 = loadImage('notepad.png');
 }
@@ -28,5 +30,5 @@ function openWin() {
   window.open("https://www.toureiffel.paris/en");
 }
 function openWin2() {
-  window.open("../paris-index.html");
+  window.open("../paris-index.html", "_self");
 }

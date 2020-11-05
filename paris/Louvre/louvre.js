@@ -5,7 +5,7 @@ function setup() {
 
 function draw() {
   background(255);
-
+  image (bkg,500,500)
   fill (80, 101, 217);
   noStroke();
   rect(40, 140, 500, 400);
@@ -20,6 +20,7 @@ function draw() {
 }
 
 function preload() {
+  bkg = loadImage ('corkboard.jpg')
   img = loadImage('LOURVE.jpg');
   img2 = loadImage('notepad.png');
 }
@@ -28,5 +29,5 @@ function openWin() {
   window.open("https://www.louvre.fr/en");
 }
 function openWin2() {
-  window.open("../paris-index.html");
+  window.open("../paris-index.html", "_self");
 }
