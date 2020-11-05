@@ -23,9 +23,9 @@ function setup() {
 
   
   
-  image(img3, 265, 200, width * scale /21, height/ 12 * scale);
-  image(img3, 530,155, width / 21 * scale, height / 12 * scale)
-  image(img3, 952, 205, width / 21 * scale, height / 12 * scale )
+  image(img3, 305, 200, width * scale /21, height/ 12 * scale);
+  image(img3, 605,155, width / 21 * scale, height / 12 * scale)
+  image(img3, 1090, 205, width / 21 * scale, height / 12 * scale )
 }
 
 // function btn () {
