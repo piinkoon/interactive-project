@@ -4,7 +4,6 @@ function setup() {
 }
 
 function draw() {
-  background(255);
 
   fill (86, 133, 186);
   noStroke();

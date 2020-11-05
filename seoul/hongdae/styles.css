@@ -1,6 +1,13 @@
 body {
   margin: 0;
+  background-image: url('assets/corkboard.jpg');
+  background-repeat: no-repeat;
+  background-attachment: absolute;
+  background-size: auto;
+  background-position: center;
+
 }
+
 
 p {
   color: white;

@@ -3,7 +3,6 @@ function setup() {
 }
 
 function draw() {
-  background(255);
 
   fill (86, 52, 158);
   noStroke();
@@ -21,6 +20,7 @@ function draw() {
 function preload() {
   img = loadImage('../chinatown/assets/nyc/CHINATOWN.jpg');
   img2 = loadImage('../chinatown/assets/notepad.png');
+
 }
 
 function openWin() {
