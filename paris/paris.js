@@ -3,8 +3,8 @@ let canvas2;
 
 function preload() {
 
-eiffel = loadImage ('eiffel/eiffel.jpg')
-louvre = loadImage ('Louvre/louvre.jpg')
+eiffel = loadImage ('eiffel/eiffel.JPG')
+louvre = loadImage ('Louvre/louvre.JPG')
   
 }
 
