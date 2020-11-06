@@ -8,7 +8,7 @@ function draw() {
   image (bkg,500,500)
   fill (80, 101, 217);
   noStroke();
-  rect(40, 140, 500, 400);
+  rect(40, 140, 500, 450);
 
   let scale = 1 / 1.52
   //let scale2 = 10 / 5.5

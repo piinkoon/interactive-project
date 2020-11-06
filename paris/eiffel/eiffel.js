@@ -9,7 +9,7 @@ function draw() {
 
   fill (84, 201, 7);
   noStroke();
-  rect(40, 140, 500, 400);
+  rect(40, 140, 500, 500);
 
   let scale = 1 / 2.45
   //let scale2 = 10 / 5.5

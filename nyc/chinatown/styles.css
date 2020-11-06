@@ -12,20 +12,22 @@ p {
   color: white;
   font-family: courier;
   font-size: 250%;
+  font-family: 'Homemade Apple', cursive;
   text-align: center;
   position: absolute;
   left: 735px;
-  top: 400px;
+  top: 373px;
 }
 
 p1 {
   color: black;
   font-family: courier;
-  font-size: 130%;
+  font-size: 150%;
+  font-family: 'Cormorant', serif;
   text-align: left;
   position: absolute;
-  left: 150px;
-  top: 335px;
+  left: 130px;
+  top: 350px;
 }
 
 button {

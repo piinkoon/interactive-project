@@ -15,11 +15,13 @@ function draw() {
   image(img, 950, 270, img.width * scale, img.height * scale);
   image(img2, 380, 490, img.width * scale2, img.height * scale2);
 
+
 }
 
 function preload() {
   img = loadImage('../chinatown/assets/nyc/CHINATOWN.jpg');
   img2 = loadImage('../chinatown/assets/notepad.png');
+
 
 }
 

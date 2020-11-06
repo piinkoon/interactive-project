@@ -38,10 +38,10 @@ function setup() {
 function draw() {
 
   scale (0.8 / 1)
-  textSize(80);
+  textSize(120);
   textFont(myFont)
   textAlign(CENTER)
-  text('Point & Go!', width / 2, height / 2);
+  text('Point & Go!', width / 1.8, height / 1.8);
   //image (img4, mouseX, mouseY)
   
 
