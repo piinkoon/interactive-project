@@ -9,13 +9,13 @@ louvre = loadImage ('Louvre/louvre.jpg')
 }
 
 function setup() {
-  createCanvas(1455, 995 );
+  createCanvas(1455, 995);
 
   let scale = 0.9/ 1
   imageMode(CENTER)
 
-  image (eiffel,450,320,eiffel.width/1.8 * scale ,eiffel.height/1.8 * scale)
-  image (louvre, 1004,555, louvre.width/2.3 * scale, louvre.height/2.4 * scale)
+  image (eiffel,430,410,eiffel.width/1.8 * scale ,eiffel.height/1.8 * scale)
+  image (louvre, 964,635, louvre.width/2.3 * scale, louvre.height/2.4 * scale)
   imageMode(CENTER)
 
 
