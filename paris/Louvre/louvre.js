@@ -20,9 +20,9 @@ function draw() {
 }
 
 function preload() {
-  bkg = loadImage ('corkboard.jpg')
-  img = loadImage('LOURVE.jpg');
-  img2 = loadImage('notepad.png');
+  bkg = loadImage ('../eiffel/assets/corkboard.jpg')
+  img = loadImage('../eiffel/assets/LOURVE.jpg');
+  img2 = loadImage('../eiffel/assets/notepad.png');
 }
 
 function openWin() {

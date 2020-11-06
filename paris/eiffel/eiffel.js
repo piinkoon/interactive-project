@@ -21,9 +21,9 @@ function draw() {
 }
 
 function preload() {
-  bkg = loadImage ('corkboard.jpg')
-  img = loadImage('EIFFEL.jpeg');
-  img2 = loadImage('notepad.png');
+  bkg = loadImage ('assets/corkboard.jpg')
+  img = loadImage('assets/EIFFEL.jpeg');
+  img2 = loadImage('assets/notepad.png');
 }
 
 function openWin() {
